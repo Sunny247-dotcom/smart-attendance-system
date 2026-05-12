@@ -1,0 +1,8 @@
+{
+  "name": "Remix: IIT Patna Smart Attendance System",
+  "description": "A comprehensive QR-based attendance tracking system for IIT Patna, featuring student registration, real-time scanning, and an analytics dashboard.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

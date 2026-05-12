@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-iitp-blue: #1e3a8a; /* blue-900 */
+  --color-iitp-accent: #f59e0b; /* amber-500 */
+  --color-iitp-slate: #0f172a; /* slate-900 */
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-slate-50 text-slate-900;
+  }
+}
+
+.brutalist-card {
+  @apply bg-white border border-slate-200 rounded-sm shadow-sm;
+}
+
+.brutalist-header {
+  @apply font-black uppercase tracking-tight italic text-lg;
+}
+
+.tiny-label {
+  @apply text-[10px] font-black uppercase text-slate-400 tracking-wider;
+}
