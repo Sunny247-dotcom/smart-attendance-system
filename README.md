@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Smart Attendance System
 
-# Run and deploy 
+This is my Smart Attendance System project.
 
-This contains everything you need to run your app locally.
+This project helps to manage student attendance digitally.
+Instead of manual attendance, QR code is used to mark presence.
 
-View your app in AI Studio: https://ai.studio/apps/fffe5e12-7cf7-4ff3-9a08-05870c045303
+## Features
+- QR Code Scanning
+- Real-time Attendance Marking
+- Dashboard View
+- Student Records Management
 
-## Run Locally
+## Tech Used
+- HTML
+- CSS
+- TypeScript
+- Vite
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## How to Run
+1. Install Node.js
+2. Run: npm install
+3. Run: npm run dev
