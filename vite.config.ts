@@ -7,8 +7,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   
   return {
-    // This tells Vite your site is hosted at this specific subfolder URL
-    base: '/smart-attendance-system/',
+    // Uses relative paths so assets load correctly on GitHub Pages
+    base: './',
     
     plugins: [react(), tailwindcss()],
     define: {
@@ -21,7 +21,6 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify—file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
